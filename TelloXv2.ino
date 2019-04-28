@@ -36,17 +36,23 @@ SOFTWARE.
   *                        "It is not pretty -- but it works."
   *                        
   * This code is the result of a software engineering proof-of-concept effort that
-  * turned out to be very capable.  Please use with caution -- use at your own risk.
+  * turned out to be very capable.  Please use this with caution -- use at your own risk.
   * 
   * You will need the Arduino IDE installed (version 1.8x or better) and at least some
-  * ability to change C++ code, compile, and download the program to the Feather M0
+  * ability to change C++ code, compile, and download this program to the Feather M0.
+  * Also needed is the Adafruit WiFi101 library installed in the IDE -- see Adafruit
+  * website(s).
   * 
-  * View this code as marginally tested, experimental code.
+  * View this as marginally tested, experimental code.
   * 
   * This code works with a Ryze/DJI Tello and an Adafruit Feather M0 Wifi (PID 3010)
   * and only requires the mininal DJI Tello API 1.0 (this means no camera support).
   *   . needed is a copy of the Tello SDK 1.0 document as it lists the supported commands
   *   . added is the 'wait <seconds>' command
+  *   
+  * Testing has been done with the Feather M0 attached to the Tello, using a smallish 250 mah lipo. Be  
+  * sure to watch the JST jack polarity.  Having to switch the red and black leads is common!
+  * 
   * 
   * Please attach a leash (10 foot +/- string) to your Tello for your first few autonomous flights
   * as your normal Tello controller will be totally ignored.  The Tello and Feather M0 communicate via WiFi.
