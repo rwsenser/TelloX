@@ -38,7 +38,7 @@ SOFTWARE.
   * This code is the result of a software engineering proof-of-concept effort that
   * turned out to be very capable.  Please use with caution -- use at your own risk.
   * 
-  * You will need the Arduino IDE install (version 1.8x or better) and at least some
+  * You will need the Arduino IDE installed (version 1.8x or better) and at least some
   * ability to change C++ code, compile, and download the program to the Feather M0
   * 
   * View this code as marginally tested, experimental code.
@@ -48,10 +48,10 @@ SOFTWARE.
   *   . needed is a copy of the Tello SDK 1.0 document as it lists the supported commands
   *   . added is the 'wait <seconds>' command
   * 
-  * Please attach a leash (10 foot +/- string) to your Tello for your first few autonoumous flights
+  * Please attach a leash (10 foot +/- string) to your Tello for your first few autonomous flights
   * as your normal Tello controller will be totally ignored.  The Tello and Feather M0 communicate via WiFi.
   * 
-  * Perhaps try DEBUG_MODE first.
+  * Perhaps try DEBUG_MODE first. :)
   * 
   * Above all: Be safe!
   * 
