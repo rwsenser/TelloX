@@ -1,2 +1,2 @@
-# Tello-X
-Tello-X: Making your Tello into a robot!
+# TelloX
+TelloX: Making your Tello into a robot!
